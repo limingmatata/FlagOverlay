@@ -1,0 +1,61 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    
+    tools:context="com.example.flaglayover.MainActivity"
+    android:background="@drawable/background"
+    >
+    
+   <LinearLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="@dimen/button_main_height"
+    android:background="@drawable/bar_bg"
+     >
+
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_gravity="center"
+           android:gravity="center"
+           android:text="Show Some Love"
+           android:textColor="#fff"
+           android:textSize="18sp" />
+    
+	</LinearLayout>
+	
+ 	<Button
+        android:id="@+id/camera"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="90dp"
+        android:background="@drawable/bar_bg"
+        android:text="Take Photo" 
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        />
+    
+    <Button
+        android:id="@+id/gallery"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/bar_bg"
+        android:text="Choose From Gallery" 
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"/>
+
+       
+
+</RelativeLayout>

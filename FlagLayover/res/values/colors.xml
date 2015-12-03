@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <color name="white">#ffffff</color>
+    <color name="whi">#dddddd</color>
+    <color name="black">#000000</color>
+    <color name="whitespace">#dfebf7</color>
+    <color name="actionbar_color">#ff11cc11</color>
+</resources>

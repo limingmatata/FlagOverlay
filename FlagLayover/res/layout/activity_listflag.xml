@@ -1,0 +1,46 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/view_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="@drawable/background"
+    >
+	
+	<FrameLayout 
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/button_main_height"
+    android:background="@drawable/bar_bg">
+
+       <TextView
+           android:id="@+id/btn_cancel"
+           android:layout_width="80dp"
+           android:layout_height="match_parent"
+           android:text="Cancel"
+           android:layout_gravity="left|center_vertical"
+           android:textColor="#fff"
+           android:textSize="15sp"
+           android:gravity="center" 
+           android:clickable="true"/>
+	
+      
+ 
+	</FrameLayout>
+	
+    <LinearLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center" 
+        android:paddingTop="@dimen/button_main_height" >
+        
+        <ListView
+		        android:id="@+id/listView"
+		        android:layout_width="fill_parent"
+		        android:layout_height="fill_parent"
+		         >
+        </ListView>
+        
+    </LinearLayout>
+      
+   
+</RelativeLayout>
